@@ -52,3 +52,6 @@ rm(activity) #cleaning memory
 rm(subject) #cleaning memory
 
 #Create Tidy data of the Means By Activity & Subject
+
+tidy<-aggregate( data[-(1:2)], list("subject"=data$subject,"activity"=data$activity), mean )
+write.table(tidy,"tidy.txt",row.names=FALSE)
