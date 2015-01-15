@@ -12,7 +12,7 @@ The script works as follows:
 * We remove data1,data2,meanfeatures,stdfeatures
 * We merge label1,label2 in **label**
 * We remove label1, label2
-* We create an empty dataset named **activity**, and we populate it with the activities labels acordong to label.
+* We create an empty dataset named **activity**, and we populate it with the activities labels acording to label.
 * We remove activities, label
 * We merge subject1,subject2 in **subject**
 * We remove subject1,subject2
